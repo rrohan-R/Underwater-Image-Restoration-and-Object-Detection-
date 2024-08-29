@@ -1,0 +1,26 @@
+The system must support docker and have docker desktop installed if it is a windows system
+
+refer the documentation for windows for more information:
+
+https://docs.docker.com/desktop/install/windows-install/
+
+
+
+
+1) For building the docker image (Run this only the first time):
+
+    docker image build -t flask_object_detection .
+
+2) For running the object detection application through docker:
+
+    docker run -p 5000:5000 -d flask_object_detection
+
+3) List all running containers/applications :
+
+    docker ps
+
+4) Stop a docker container / application :
+
+    docker stop <container-id>
+
+    note: container-id can be obtained from "docker ps" command

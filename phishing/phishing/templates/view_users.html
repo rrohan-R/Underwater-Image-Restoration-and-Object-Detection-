@@ -1,0 +1,35 @@
+{%extends 'admin_layout.html'%}
+{%block content%}
+	<!--/inner-banner-->
+	<div class="inner-banner">
+	</div>
+	
+
+
+
+    <table class="table" style="width:60%;margin-left:20%;margin-top:5%;border:2px;">
+               
+        <tbody>
+            
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Contact</th>
+                <th>Address</th>      
+            </tr>
+            {% for i in obj %}
+            <tr>
+                <td>{{i.name}}</td>
+                <td>{{i.email}}</td>
+                <td>{{i.contact}}</td>
+                <td>{{i.address}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <br><br><br><br><br><br>
+    <br><br><br><br>
+
+
+	{%endblock%}

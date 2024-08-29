@@ -1,0 +1,26 @@
+th{
+    width: 20px;
+    text-align: center;
+    height: 20px;
+}
+td{
+    width: 300px;
+    height: 200px;
+}
+#mytable{
+    margin-top: 200px;
+    margin-left: 90px;
+    height: 400px;
+}
+#SecondMain{
+position: fixed;
+top: 20px;
+left: 300px;
+}
+#third{
+    position: fixed;
+    left: 650px;
+    top: 20px;
+}
+
+/* Apply background color to the table's parent container */
